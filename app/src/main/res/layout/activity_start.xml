@@ -15,7 +15,6 @@
         android:layout_height="wrap_content"
         android:text="@string/hello_message"
         android:layout_alignParentTop="true"
-
         android:id="@+id/textView2" />
 
     <Button
