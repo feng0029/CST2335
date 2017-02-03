@@ -4,6 +4,15 @@
     <string name="hello_message">Bonsour!</string>
     <string name="ButtonText">Je suis un bouton</string>
     <string name="Login">S\'identifier</string>
+    <string name="login_name">identifiant</string>
     <string name="EditText">Éditer le texte</string>
     <string name="Password">Mot de passe</string>
+    <string name="radio_button">Bouton radio</string>
+    <string name="check_box">Cocher la case</string>
+    <string name="enable">Activer quelque chose</string>
+    <string name="loginActivityButton">S\'identifier</string>
+    <string name="dialog_message">Voulez-vous quitter?</string>
+    <string name="dialog_title">Attention</string>
+    <string name="ok">Oui</string>
+    <string name="cancel">Non</string>
 </resources>
