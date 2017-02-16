@@ -42,6 +42,18 @@ public class StartActivity extends AppCompatActivity {
 
 //        setContentView(R.layout.activity_start);
         Log.i(ACTIVITY_NAME, "In onCreate()");
+
+        Button chatButton = (Button) findViewById(R.id.button3);
+        chatButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent chatWindow = new Intent(StartActivity.this, ChatWindow.class);
+                startActivity(chatWindow);
+                Log.i(ACTIVITY_NAME, "User clicked Start Chat");
+//                Intent intent = new Intent(getApplicationContext(), ChatWindow.class);
+
+            }
+        });
     }
 
     public void onActivityResult(int requestCode,int responseCode, Intent data){
